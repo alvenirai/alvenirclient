@@ -2,7 +2,9 @@
 gRPC client for speech recognition using Alvenir as backend. 
 
 The client and the gRPC integration is in **beta** and ongoing development. Hence, there might be
-a few stability issues. It currently supports only Danish and you need to receive an API key from Alvenir to use.
+a few stability issues. Currently, it works best and fastest on short files i.e. 1-10 minutes of length. If you need to transcribe bigger files, we suggest using our URL rest integration instead. :-)
+
+It currently supports only Danish and you need to receive an API key from Alvenir to use.
 
 Write an email to martin[at]alvenir.ai or rasmus[at]alvenir.ai if you want an API key!
 
